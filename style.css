@@ -8,13 +8,16 @@ h1{
     
     font-size: 55px;
 }
+h2{
+    font-size: 40px;
+}
 .h{
     color: rgb(247, 155, 36);
 }
-.name{
+h3{
     color:rgb(197, 143, 41);
 }
-section{
+.flxible-container{
     display: flex;
     margin-bottom: 150PX;
 }
@@ -43,4 +46,18 @@ section p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:  right;
+}
+.full-stack{
+   margin-left: 50px;
+   margin-right: 50px;
+    width: 50%;
+    padding: 20px;
+    box-shadow:3px 10px 40px gray;
+    border-left: 5px solid orange;
+    box-sizing: border-box;
+}
+.exprence-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: -18px 61px ;
 }
